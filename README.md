@@ -5,7 +5,7 @@ Ejercicios de Python con Peterson
 
 Temario:
 
->_[!WARNING]_
+> [!WARNING]
 Próximamente iré actualizando 
 información de los ejercicios.
 
