@@ -6,6 +6,7 @@
  1. A partir de main generar una rama <br>
   - git branch ( para comprobar en que rama estas)
   - git checkout -b nombre-de-tu-rama-sin-mayusculas ( Apunte! NO espacios en blanco, SI se-puede-guiones )
+     - Recomendación tu-nombre o feature-tu-nombre
   - Create tu carpeta con tu nombre, para los ejercicios, Peterson, más adelante dará indicaciones de que hacer.
     - git add .
     - git commit -m "mensaje del commit en ingles, en imperativo y corto a ser posible"
