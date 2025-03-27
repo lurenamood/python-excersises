@@ -1,12 +1,12 @@
 # python-excersises
 
+<h3 >Practicas de Python</h3>
 
-Ejercicios de Python con Peterson 
 
 Temario:
 
 > [!WARNING]
-Próximamente iré actualizando 
-información de los ejercicios.
+`Próximamente iré actualizando
+información de los ejercicios`
 
 Es el REPO de las/los que hacen proyectos en REACTJS.
