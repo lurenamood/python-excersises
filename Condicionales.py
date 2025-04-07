@@ -2,13 +2,30 @@
 #  Condicionales en Python
 #  Ejercicio 1
 #  Dada una edad ingresada por el usuario, determina si es mayor de edad (18 o más) o menor de edad (menos de 18).
+edad = int(input("Por favor, ingresa tu edad: "))
 
-
+if edad >= 18:
+    print("Eres mayor de edad.")
+elif edad < 18:
+    print("Eres menor de edad.")
+    
+    
+    
+    
 
 # Ejercicio 2
 #  Pide al usuario que ingrese un número de tres dígitos. Imprime si es un número par o impar.
+numero = int(input("Por favor, ingresa un número de tres dígitos: "))
 
-
+if 100 <= abs(numero) <= 999:
+    
+    if numero % 2 == 0:
+        print("El número es par.")
+    else:
+        print("El número es impar.")
+else:
+    print("El número ingresado no tiene tres dígitos.")
+    
 
 # Ejercicio 3
 #  Un usuario ingresa un salario mensual. Si el salario es mayor o igual a $2000, imprime "Salario alto", si es menor a
@@ -21,14 +38,38 @@
 
 
 
+
+
+
+
 # Ejercicio 5
 #  Un estudiante ingresa su puntaje en un examen. Si el puntaje es mayor o igual a 90, imprime "Aprobado con Distinción".
 #  Si es mayor o igual a 70 pero menor a 90, imprime "Aprobado". Si es menor a 70, imprime "Reprobado".
+puntaje = int(input("Por favor, ingresa tu puntaje en el examen: "))
 
+if puntaje >= 90:
+    print("Aprobado con Distinción")
+elif puntaje >= 70 and puntaje <= 90:
+    print("Aprobado")
+else:
+    print("Reprobado")
+    
+    #Queda pendiente 
+    
+    
 
 # Ejercicio 7
 #  Ingresa un valor numérico para representar una temperatura en grados Celsius y determina si está bajo cero, entre 0 y
 #  30 grados, o por encima de 30 grados.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -39,9 +80,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 # Ejercicio 9
 #  Un alumno introduce las horas de trabajo semanal. Si las horas son más de 40, imprime "Trabajo a tiempo completo", si
 #  son menos de 40, imprime "Trabajo a medio tiempo".
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 
 # Ejercicio 10
@@ -52,9 +114,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Ejercicio 11
 #  Solicita un número de calificación entre 0 y 10. Si la calificación es mayor o igual a 9, imprime "Excelente". Si es mayor o
 #  igual a 7 pero menor a 9, imprime "Bueno". Si es menor a 7, imprime "Necesita mejorar".
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 # Ejercicio 12
@@ -62,8 +153,36 @@
 #  imprímelo multiplicado por 3.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Ejercicio 13
 #  Solicita al usuario que ingrese un valor en minutos y determina cuántas horas y minutos son.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
 
@@ -72,10 +191,53 @@
   
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 # Ejercicio 15
 #  Ingresa la hora actual en formato de 24 horas. Si es de día (de 6 a 18), imprime "Es de día". Si es de noche (de 18 a 6),
 #  imprime "Es de noche".
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -90,11 +252,45 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 # Ejercicio 17
 # Pide al usuario que ingrese dos números. Si el primero es mayor que el segundo, imprime el primero. Si el segundo es
 #  mayor que el primero, imprime el segundo. Si son iguales, imprime "Son iguales".
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -106,10 +302,52 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 # Ejercicio 19
 #  Ingresa un número de 4 dígitos. Si el número es divisible entre 3, imprime "Divisible entre 3". Si no es divisible entre 3,
 #  imprime "No divisible entre 3".
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
  
@@ -121,9 +359,53 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 # Ejercicio 21
 #  Determina si un año es bisiesto. Un año es bisiesto si es divisible entre 4, pero no divisible entre 100, excepto si también
 #  es divisible entre 400.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
