@@ -1,9 +1,9 @@
 # 📝 Ejercicios con for en Python
 
-#FACTORIAL
+#FACTORIAL(x)
 
 
-#1
+ #1
 for n in range(1, 6):
     factorial = 1
     for i in range(1, n + 1):
@@ -11,10 +11,8 @@ for n in range(1, 6):
     print(f"El factorial de {n} es {factorial}")
     
     
-    
 #2
 numeros = [5, 4, 3, 2, 1]
-
 for n in numeros:
     factorial = 1
     for i in range(1, n + 1):
@@ -22,12 +20,19 @@ for n in numeros:
     print(f"El factorial de {n} es {factorial}")
     
     
-    
 #3
 import math
 print(math.factorial(5))
 
 
+
+#4
+num = int(input("Ingr el numero: "))
+facto = 1
+for i in range(num, 0, -1):
+    print(f"EL numero que se imprime {i}")
+    facto *= i 
+print("Factorial de ", num, "is ", facto) 
 
 
 # Imprimir números del 1 al 20
