@@ -495,6 +495,23 @@ else:
 # - **Menos de 3 boletos:** No hay descuento.  
 # - **Si el usuario compra más de 10 boletos, imprime "Límite excedido"** (usa `not`).  
 
+cantidad = int(input("¿Cuántos boletos querés comprar?: "))
+
+if not cantidad <= 10:
+    print("Límite excedido, no puedes comprar tanto.")
+else:
+    precio = 100  # Precio base por boleto
+    total = precio * cantidad
+
+    if cantidad >= 5:
+        descuento = total * 0.20
+    elif cantidad >= 3:
+        descuento = total * 0.10
+    else:
+        descuento = 0
+
+    total_pagar = total - descuento
+    print(f"Pagas {total_pagar} con el descuento aplicado.")
 
 
 
@@ -509,6 +526,12 @@ else:
 # - Si **tiene 10 dígitos**, imprime "Número válido".  
 # - Si **tiene menos o más**, imprime "Número inválido".  
 
+telefono = input("Dime tu número de teléfono: ")
+
+if len(telefono) == 10 and telefono.isdigit():
+    print("Número válido.")
+else:
+    print("Número inválido, revisalo bien.")
 
 
 
@@ -522,3 +545,14 @@ else:
 # - **Estándar:** "Acceso a contenido en HD".  
 # - **Premium:** "Acceso a contenido en 4K y múltiples dispositivos".  
 # - **Si ingresa un valor incorrecto, imprime "Suscripción inválida"** (usa `not`).
+
+suscripcion = input("¿Qué tipo de suscripción tenés (básica, estándar, premium)?: ").lower()
+
+if suscripcion == "básica":
+    print("Acceso a contenido limitado.")
+elif suscripcion == "estándar":
+    print("Acceso a contenido en HD.")
+elif suscripcion == "premium":
+    print("Acceso a contenido en 4K y múltiples dispositivos.")
+elif not suscripcion in ["básica", "estándar", "premium"]:
+    print("Suscripción inválida, revisalo bien por favor.")
